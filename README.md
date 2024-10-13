@@ -1,23 +1,25 @@
 # ALSU_UVM
-Overview
+# Overview
 This project involves verifying the Arithmetic Logic and Shift Unit (ALSU) using the Universal Verification Methodology (UVM) and SystemVerilog. The ALSU module performs basic arithmetic, logic, and shift operations, and the verification environment ensures its functional correctness by applying a structured UVM methodology.
 
 The goal of this project is to develop a robust testbench that validates the ALSU's functionality against its specification, covering all corner cases and edge conditions. The project achieves 100% functional and code coverage and involves debugging and fixing design issues identified during the verification process.
 
-Features
+# Features
 UVM-Based Testbench: A complete UVM verification environment, including agents, drivers, monitors, and scoreboards.
 Assertions: Assertions are used to check key states and conditions in the ALSU, ensuring operations such as shifts, logical operations, and arithmetic functions are correct.
 Functional Coverage: Coverage points for all operational modes, including edge cases like overflows and underflows.
 Sequence Generation: Randomized test sequences generated for thorough testing of the ALSU's capabilities.
 Design Under Test (DUT): The ALSU module that performs arithmetic, logic, and shift operations.
-Directory Structure
-doc/: Project documentation, including ALSU specifications.
-src/: Source files for ALSU design in SystemVerilog.
-tb/: Testbench files, including UVM components like agents, scoreboard, and sequences.
-sim/: Simulation directory, where results and logs are stored.
-README.md: This README file.
-Makefile: Build automation file for running simulations.
-How to Run the Simulation
+# Directory Structure
+doc: Project documentation, including ALSU specifications.
+
+src: Source files for ALSU design in SystemVerilog.
+
+tb: Testbench files, including UVM components like agents, scoreboard, and sequences.
+
+sim: Simulation directory, where results and logs are stored.
+
+# How to Run the Simulation
 Set Up the Environment: Ensure you have the necessary simulation tools installed (such as QuestaSim or ModelSim).
 
 Compile the Testbench: Use the provided Makefile or a similar method to compile the project.
