@@ -10,21 +10,11 @@ Assertions: Assertions are used to check key states and conditions in the ALSU, 
 Functional Coverage: Coverage points for all operational modes, including edge cases like overflows and underflows.
 Sequence Generation: Randomized test sequences generated for thorough testing of the ALSU's capabilities.
 Design Under Test (DUT): The ALSU module that performs arithmetic, logic, and shift operations.
-# Directory Structure
-doc: Project documentation, including ALSU specifications.
-
-src: Source files for ALSU design in SystemVerilog.
-
-tb: Testbench files, including UVM components like agents, scoreboard, and sequences.
-
-sim: Simulation directory, where results and logs are stored.
 
 # How to Run the Simulation
-Set Up the Environment: Ensure you have the necessary simulation tools installed (such as QuestaSim or ModelSim).
+Set Up the Environment: Ensure you have the necessary simulation tools installed (such as QuestaSim ).
 
-Compile the Testbench: Use the provided Makefile or a similar method to compile the project.
-
-Run the Simulation: After compiling, run the simulation to execute the testbench on the ALSU.
+run the do file uploaded in the transcript
 
 Analyze the Results: Upon completion, review the coverage and assertion reports generated.
 
