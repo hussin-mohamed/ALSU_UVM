@@ -28,16 +28,25 @@ Run the Simulation: After compiling, run the simulation to execute the testbench
 
 Analyze the Results: Upon completion, review the coverage and assertion reports generated.
 
-Key Components
+# Key Components
 ALSU Interface: Connects the UVM components to the ALSU module for communication.
+
 ALSU Agent: Includes both a driver and a monitor. The driver sends sequences to the ALSU, while the monitor observes and compares the responses using the scoreboard.
+
 ALSU Scoreboard: Compares the actual output from the ALSU with the expected output to identify errors.
+
 ALSU Coverage: Ensures that all important functionalities of the ALSU are covered by the tests.
-Features Tested
-Arithmetic Operations: Addition, subtraction, etc.
-Logic Operations: AND, OR, XOR, NOT.
-Shift Operations: Left shift, right shift, and arithmetic shifts.
-Corner Cases: Handling of overflow, underflow, and edge-case values.
+
+# Features Tested
+Arithmetic Operations: Addition, Multiplication.
+
+Logic Operations: OR, XOR.
+
+Shift Operations: Left shift, right shift, and rotaions.
+
+Corner Cases: Handling of overflow, and edge-case values.
+
 Error Conditions: Verifies if the ALSU handles invalid operations or states correctly.
+
 # UVM testbench
 ![fifo_uvm_testbench drawio](https://github.com/user-attachments/assets/c40266b8-da4e-4ed1-8a05-fc6014f54ec3)
